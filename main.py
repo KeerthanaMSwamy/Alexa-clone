@@ -1,7 +1,11 @@
+#since always typing speech_recognition takes a lot of time we use [as sr] you can change sr to anything you wish
 import speech_recognition as sr
+#pyttsx3 is a library in python that is used to convert text to speech
 import pyttsx3
+#pywhatkit is a library in python that is used to many authomation mainly whatsapp and youtube, in the below code we use the youtube feature 
 import pywhatkit
 import datetime
+#wikipedia ia a library we use to search information, this has a package to guve summary 
 import wikipedia
 import pyjokes
 
