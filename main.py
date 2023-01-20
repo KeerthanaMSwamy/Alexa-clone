@@ -33,7 +33,7 @@ def take_command():
             #  engine.runAndWait()
             #    print(command)
             
-            
+     #you need except here because sometimes your microphone might not work or your voice is not recognised , if you want to relate this is like try and catch block in java       
     except:
         pass
     return command
