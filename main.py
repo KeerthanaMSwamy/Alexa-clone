@@ -12,6 +12,7 @@ import pyjokes
 
 listener = sr.Recognizer()
 engine = pyttsx3.init()
+#there are two options for the voice, 0 for male and 1 for female
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
 
