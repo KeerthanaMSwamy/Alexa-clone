@@ -1,3 +1,4 @@
+#you can change ALEXA to any name you want, all you have to do is change 'alexa' to your desired name 
 #since always typing speech_recognition takes a lot of time we use [as sr] you can change sr to anything you wish
 import speech_recognition as sr
 #pyttsx3 is a library in python that is used to convert text to speech
